@@ -13,4 +13,6 @@ pub fn mutability() {
 
     mutable = 2;
     println!("mutable={}", mutable);
+
+    //mutable = "Mutable"; //mutation of type is not allowed!
 }
